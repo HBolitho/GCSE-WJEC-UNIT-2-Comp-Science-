@@ -11,7 +11,7 @@ app.secret_key = 'BookingSession' #Session Secret key
 
 #Database connection#
 def db_connect():
-  db = pymysql.connect(host="localhost", user="root", password="OJHTAB!6bol6", database="bookingsystem", cursorclass= pymysql.cursors.DictCursor)
+  db = pymysql.connect(host="", user="", password="", database="", cursorclass= pymysql.cursors.DictCursor)
   cursor = db.cursor()
   return db , cursor
 
